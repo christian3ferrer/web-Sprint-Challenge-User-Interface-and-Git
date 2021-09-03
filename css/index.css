@@ -132,15 +132,42 @@ div img {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.box
-
+div.box.one{
+    background-color:teal;
+}
+div.box.two{
+    background-color: gold;
+}
+div.box.three{
+    background-color: cadetblue;
+}
+div.box.four{
+    background-color: coral;
+}
+div.box.five{
+    background-color: crimson;
+}
+div.box.six{
+    background-color: forestgreen;
+}
+div.box.seven{
+    background-color: darkorchid;
+}
+div.box.eight{
+    background-color: hotpink;
+}
+div.box.nine{
+    background-color: indigo;
+}
+div.box.ten{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
