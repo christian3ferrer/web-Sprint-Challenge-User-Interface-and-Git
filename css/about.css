@@ -1,0 +1,36 @@
+
+
+/* where the CSS content will begin */
+
+.header-container{
+    width: 800px;
+    margin:0 auto;
+}
+.links-with-title{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2em;
+}
+.header-links {
+    width: 600px;
+    padding:20px 2%;
+    display:flex;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+.header-links a{
+    color: black;
+    text-decoration: none;
+}
+div img {
+    margin-bottom: 1em;
+}
+
+/* second section will begin here */
+ 
+
+.workplace {
+    display:flex;
+}

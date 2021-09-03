@@ -66,6 +66,34 @@ p {
     line-height: 1.4;
 }
 
+/* where the CSS content will begin */
+
+.header-container{
+    width: 800px;
+    margin:0 auto;
+}
+.links-with-title{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2em;
+    
+}
+.header-links {
+    width: 600px;
+    padding:20px 2%;
+    display:flex;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+.header-links a{
+    color: black;
+    text-decoration: none;
+}
+div img {
+    margin-bottom: 1em;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,14 +132,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+div.box.one{
+    background-color:teal;
+}
+div.box.two{
+    background-color: gold;
+}
+div.box.three{
+    background-color: cadetblue;
+}
+div.box.four{
+    background-color: coral;
+}
+div.box.five{
+    background-color: crimson;
+}
+div.box.six{
+    background-color: forestgreen;
+}
+div.box.seven{
+    background-color: darkorchid;
+}
+div.box.eight{
+    background-color: hotpink;
+}
+div.box.nine{
+    background-color: indigo;
+}
+div.box.ten{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
